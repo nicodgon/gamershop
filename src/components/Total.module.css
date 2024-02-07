@@ -1,0 +1,42 @@
+.totalContainer{
+  margin-top: 4em;
+  display: flex;
+  gap: 1em;
+  align-items: center;
+}
+
+.totalPrice{
+  font-size: 2.2em;
+}
+
+.buyBtn{
+  font-size: 1.2em;
+  height: 2em;
+  cursor: pointer;
+  font-weight: bold;
+  cursor: pointer;
+  border: 1px solid #777;
+  border-radius: 3px;
+  background-color: rgb(106, 198, 0)
+}
+
+@media only screen and (max-width:768px){
+  .totalContainer{
+    flex-direction: column;
+  }
+  
+  .totalPrice{
+    font-size: 1.5em;
+  }
+
+  .buyBtn{
+    font-size: 1em;
+  }
+}
+
+@media (hover:hover){
+  .buyBtn:hover{
+    transition: all .7s;
+    background-color: rgb(30, 100, 30)
+  }
+}

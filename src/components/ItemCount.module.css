@@ -1,0 +1,42 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .8em;
+}
+
+
+.container form{
+  display: flex;
+  gap: .5em;
+}
+
+.container div{
+  display: flex;
+  gap: .5em;
+}
+
+.btnProd {
+  margin: 10px;
+  font-weight: bold;
+  padding: 5px;
+  cursor: pointer;
+  border: 1px solid #777;
+  border-radius: 3px;
+  background-color: rgb(185, 185, 185);
+  margin: 0;
+}
+
+.inp {
+  width: 50px;
+  height: 25px;
+  text-align: center;
+  font-size: 15px;
+}
+
+@media (hover:hover){
+  .btnProd:hover {
+    transition: all .7s;
+    background-color: rgb(30, 100, 30)
+  }
+}

@@ -1,0 +1,16 @@
+.containerError{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 2em;
+}
+
+.containerError h3{
+  font-size: 3em;
+  color: #f00;
+}
+
+.containerError p{
+  font-size: 2em;
+}

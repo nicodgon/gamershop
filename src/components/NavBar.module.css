@@ -1,0 +1,42 @@
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  border-bottom: 1px solid #000;
+}
+
+.logo {
+  width: 6em;
+}
+
+.btnMenu{
+  display: none;
+}
+
+@media only screen and (max-width:768px){
+  .navContainer{
+    align-items: center;
+    position: relative;
+    justify-content: center;
+  }
+
+  .logo {
+    grid-area: logo;
+    width: 4em;
+  }
+
+  .btnMenu{
+    display: flex;
+    background-color: #000;
+    border: none;
+    border-radius: 5px;
+  }
+
+  .hamburgerMenu{
+    width: 2.4em;
+  }
+
+	.navContainerButtons{
+    display: none;
+	}
+}

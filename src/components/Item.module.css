@@ -1,0 +1,33 @@
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: .6px solid #bbb;
+}
+
+.product img {
+  width: 18em;
+  height: 18em;
+}
+
+.product h3 {
+  font-size: 1em;
+}
+
+.btnProd {
+  margin: 10px;
+  font-weight: bold;
+  padding: 5px;
+  cursor: pointer;
+  border: 1px solid #777;
+  border-radius: 3px;
+  background-color: rgb(185, 185, 185)
+}
+
+@media (hover:hover){
+  .btnProd:hover {
+    transition: all .7s;
+    background-color: rgb(30, 100, 30)
+  }
+}

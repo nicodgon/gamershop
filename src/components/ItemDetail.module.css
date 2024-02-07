@@ -1,0 +1,23 @@
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: .6px solid #bbb;
+  padding: .2em;
+}
+
+.product img {
+  width: 250px;
+  height: 250px;
+}
+
+.product p {
+  color: #000;
+}
+
+@media only screen and (max-width:768px){
+	.product{
+    margin: 0 .2em;
+	}
+}

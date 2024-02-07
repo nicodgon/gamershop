@@ -1,0 +1,18 @@
+.cartIcon {
+  display: flex;
+  width: 6em;
+  justify-content: end;
+}
+
+.cartIcon img {
+  cursor: pointer;
+  font-size: .7em;
+  width: 3em;
+}
+
+@media only screen and (max-width:768px){
+	.cartIcon {
+    margin-left:auto;
+    padding-right: .2em;
+  }
+}
