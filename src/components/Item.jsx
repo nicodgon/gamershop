@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import styles from "./Item.module.css"
-import PropTypes from "prop-types"
+import styles from "./Item.module.css";
+import PropTypes from "prop-types";
 
 export default function Item({ product, description, img, id }) {
   return (
@@ -14,9 +14,9 @@ export default function Item({ product, description, img, id }) {
   );
 }
 
-Item.propTypes={
+Item.propTypes = {
   product: PropTypes.node,
   img: PropTypes.node,
   description: PropTypes.node,
   id: PropTypes.node,
-}
+};

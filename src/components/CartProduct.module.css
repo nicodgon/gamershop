@@ -1,4 +1,4 @@
-.list{
+.list {
   display: flex;
   flex-direction: column;
   gap: 1em;
@@ -7,40 +7,40 @@
   margin-bottom: 4em;
 }
 
-.prodContainer{
+.prodContainer {
   display: grid;
   grid-template-columns: 8em 3fr 1fr;
   border: 1px solid #aaa;
   border-radius: 20px;
   gap: 1em;
-  padding: .5em;
+  padding: 0.5em;
   text-decoration: none;
-  color:#000;
+  color: #000;
   height: 8em;
 }
 
-.prodimage{
+.prodimage {
   width: 8em;
   border-radius: 10px;
 }
 
-.info{
+.info {
   display: grid;
   grid-template-columns: 10em 6em 8em;
   justify-content: space-between;
   gap: 1em;
 }
 
-.info h3{
+.info h3 {
   font-size: 2em;
   margin: 0;
 }
 
-.info span{
+.info span {
   font-size: 1.5em;
 }
 
-.trashIcon{
+.trashIcon {
   width: 35px;
   height: 35px;
   cursor: pointer;
@@ -48,48 +48,48 @@
   margin-left: auto;
 }
 
-@media only screen and (max-width:1280px){
-  .prodContainer{
+@media only screen and (max-width: 1280px) {
+  .prodContainer {
     grid-template-columns: 14em 3fr 1fr;
   }
 
-  .info{
+  .info {
     display: flex;
     flex-direction: column;
     justify-content: start;
   }
 }
 
-@media only screen and (max-width:768px){
-  .prodContainer{
+@media only screen and (max-width: 768px) {
+  .prodContainer {
     grid-template-columns: 4em 3fr 1fr;
     height: 5em;
   }
 
-  .prodimage{
+  .prodimage {
     width: 4em;
   }
 
-  .info{
+  .info {
     gap: 0;
   }
 
-	.info h3 {
+  .info h3 {
     font-size: 1.2em;
   }
 
-	.info span {
+  .info span {
     font-size: 1em;
   }
 
-  .trashIcon{
+  .trashIcon {
     width: 25px;
     height: 25px;
   }
 }
 
-@media (hover:hover){
-  .trashIcon:hover{
+@media (hover: hover) {
+  .trashIcon:hover {
     transform: scale(1.1);
   }
 }

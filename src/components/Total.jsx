@@ -1,7 +1,7 @@
-import styles from "./Total.module.css"
-import PropTypes from "prop-types"
+import styles from "./Total.module.css";
+import PropTypes from "prop-types";
 
-export default function Cart({total,clearCart,finalizePurchase}) {
+export default function Cart({ total, clearCart, finalizePurchase }) {
   const buy = () => {
     clearCart();
     finalizePurchase();
@@ -17,8 +17,8 @@ export default function Cart({total,clearCart,finalizePurchase}) {
   );
 }
 
-Cart.propTypes={
+Cart.propTypes = {
   total: PropTypes.node,
   clearCart: PropTypes.func,
   finalizePurchase: PropTypes.func,
-}
+};

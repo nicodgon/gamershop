@@ -1,7 +1,7 @@
 import logo from "../assets/images/icons/logo.png";
 import Swal from "sweetalert2";
 
-export const useSweetAlert2=()=>{
+export const useSweetAlert2 = () => {
   const finalizePurchase = () => {
     Swal.fire({
       imageUrl: logo,
@@ -17,5 +17,5 @@ export const useSweetAlert2=()=>{
       window.location.reload();
     }, 5000);
   };
-  return {finalizePurchase}
-}
+  return { finalizePurchase };
+};
