@@ -1,8 +1,8 @@
-# React + Vite
+# Gamer shop
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=F70066&random=false&width=435&lines=TIENDA+GAMER)](https://git.io/typing-svg)
 
-Currently, two official plugins are available:
+------------
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##### Esta página fue creada utilizando:
+<img alt="Static Badge" src="https://img.shields.io/badge/ReactJS-%230ff"> <img alt="Static Badge" src="https://img.shields.io/badge/HTML-red"> <img alt="Static Badge" src="https://img.shields.io/badge/CSS-%2300f">
